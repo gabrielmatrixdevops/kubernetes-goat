@@ -1,4 +1,4 @@
-FROM node:slim
+FROM node:16.5.0-slim
 LABEL MAINTAINER "Madhu Akula" INFO="Kubernetes Goat"
 
 WORKDIR /app
